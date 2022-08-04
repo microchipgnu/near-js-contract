@@ -1,0 +1,20 @@
+{
+  "name": "hello-near-contract",
+  "version": "1.0.0",
+  "description": "Hello NEAR contract in Javascript",
+  "type": "module",
+  "scripts": {
+    "build": "near-sdk-js build src/index.ts build/hello_near.wasm"
+  },
+  "author": "Near Inc <hello@nearprotocol.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "near-sdk-js": "^0.4.0-4"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "@babel/core": "7.18.2",
+    "@babel/preset-env": "7.18.2",
+    "@babel/preset-react": "7.17.12"
+  }
+}
