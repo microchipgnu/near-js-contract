@@ -4,12 +4,13 @@
   "description": "Hello NEAR contract in Javascript",
   "type": "module",
   "scripts": {
-    "build": "near-sdk-js build src/index.ts build/hello_near.wasm"
+    "build": "near-sdk-js build src/wall.ts build/wall.wasm"
   },
   "author": "Near Inc <hello@nearprotocol.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "near-sdk-js": "^0.4.0-4"
+    "near-sdk-js": "^0.4.0-4",
+    "superserial": "^0.3.0"
   },
   "devDependencies": {
     "typescript": "^4.7.4",
